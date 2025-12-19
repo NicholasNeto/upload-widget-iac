@@ -1,0 +1,10 @@
+name: upload-widget-iac
+description: Project Upload Widget IAC
+runtime:
+  name: nodejs
+  options:
+    packagemanager: pnpm
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript
